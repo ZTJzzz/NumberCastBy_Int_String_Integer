@@ -35,5 +35,18 @@ public class NumberCastBy_Int_String_Integer {
 		String s6 = new String("123");
 		Integer integer6 = Integer.valueOf(s6);
 		
+		
+		/**
+		 * 自动装箱和自动拆箱是jdk5.0以后的新特性
+		 * 如：
+		 * 	int ---> Integer  装箱
+		 * 	Integer ---> int  拆箱
+		 * 
+		 */
+		//自动装箱
+		Integer integer7 = 10;
+		
+		//自动拆箱
+		int i7 = integer7;
 	}
 }
